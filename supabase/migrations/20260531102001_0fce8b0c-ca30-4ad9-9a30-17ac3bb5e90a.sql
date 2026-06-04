@@ -1,0 +1,1 @@
+ALTER TABLE public.shop_settings ADD COLUMN IF NOT EXISTS featured_limit integer NOT NULL DEFAULT 6;
